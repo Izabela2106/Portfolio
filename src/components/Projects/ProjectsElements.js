@@ -62,7 +62,6 @@ object-fit:cover;
 
 &:hover{
 transition: all 0.3s ease-in-out;
-cursor:pointer;
 background-color:rgb(0,0,0,0.7);
 
 
@@ -81,10 +80,37 @@ transition: all 0.3s ease-in-out;
 display:flex;
 justify-content:center;
 align-items:center;
+ a{
+    color:transparent;
+    background-color:transparent;
+    text-align:center;
+    text-decoration:none;
+    border-radius:50px;
+    justify-content:center;
+    align-items:center;
+    padding:0.5rem;
+    font-size:20px;
+
+
+
+} 
+
 h2{
     font-weight:100;
     text-transform:uppercase;
 
+}
+.links{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+
+}
+
+.githubLink{
+    font-size:30px;
 }
 .technologies{
 display:flex;
@@ -96,6 +122,7 @@ h4{
     border-radius:5px;
     background-color:transparent;
 }
+
 
 }
 }
@@ -113,6 +140,21 @@ h4{
     color:rgb(255,255,255,0.7)
 
 }
+a{
+    color:rgb(255,255,255,0.7);
+    transition: all 0.5s ease-in-out;
+    transition-delay:0.4s;
+    
+
+}
+
+.viewLink{
+    display:flex;
+    flex-direction:row;
+    text-align:center;
+
+}
+
 
 }
 

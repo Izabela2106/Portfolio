@@ -19,7 +19,8 @@ const About=()=>{
        <ImageContainer src={img}/>
        </BgContainer>
    <Description>
-    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>   
+    <h3>I'm student of Computer Science faculty and aspiring front-end developer looking for my first job. I enjoy learning new things, problem solving and coding. Last few months I focused on improving my website development skills and I have worked on technologies like JavaScript, React, CSS, HTML, TypeScript.
+ </h3>   
    <Button to='projects'  onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>Projects {hover ? <ArrowForward/> : <ArrowRight/>}</Button>
 
    </Description>

@@ -21,8 +21,12 @@ export const data=[
         text:'React'
     },
     {
+        id:8,
+        text:'React State Management (Redux)'
+    },
+    {
         id:5,
-        text:'Rsponsive Web Design'
+        text:'Responsive Web Design'
     },
     {
         id:6,
@@ -32,9 +36,10 @@ export const data=[
         id:7,
         text:'C++'
     },
+    
     {
-        id:8,
-        text:'Język angielski'
+        id:9,
+        text:'English B2'
     }
     
     

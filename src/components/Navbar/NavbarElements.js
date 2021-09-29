@@ -29,8 +29,7 @@ justify-content:space-between;
 height:80px;
 z-index:1;
 width:100%;
-padding:0 24px;
-max-width: 1100px;
+padding:0 1rem;
 
 `
 
@@ -41,7 +40,6 @@ cursor:pointer;
 display:flex;
 align-items:center;
 justify-content:center;
-margin-left:24px;
 font-width:bold;
 font-size:3rem;
 text-decoration:none;

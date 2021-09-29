@@ -12,6 +12,7 @@ padding:2rem 0;
 
 
 
+
 `
 export const ImageContainer=styled.img`
 width:100%;
@@ -42,7 +43,10 @@ h3{
     margin: 2rem 4rem;
 
     @media screen and (max-width:500px){
-        font-size:18px;
+        font-size:14px;
     }
+    @media screen and (max-width:300px){
+        font-size:12px;
+        }
 }
 `

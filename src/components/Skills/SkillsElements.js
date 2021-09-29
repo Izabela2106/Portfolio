@@ -84,6 +84,7 @@ background-color:rgb(0,0,0,0.8);
 
 
 
+
 #css{
 background-image:url(${cssImg});
 background-size: cover;
@@ -169,9 +170,15 @@ margin-top:120px;
 @media screen and (max-width:400px){
 grid-template-columns:1fr;
 
+
 #html{
 margin-top:80px;
 }
+#react{margin-top:50px};
+}
+
+#css{
+    margin-top:30px;
 }
 
 `
